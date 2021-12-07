@@ -3,11 +3,11 @@
     <v-container>
       <v-row class="intro">
         <v-col cols="12">
-          <h2>Service</h2>
+          <h2 class="mb-5">Services</h2>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis iste natur
+            Here are the services that I can offer you (Person | A Company) for
+            the realization of your projects. You can also download my CV for
+            more details
           </p>
         </v-col>
       </v-row>

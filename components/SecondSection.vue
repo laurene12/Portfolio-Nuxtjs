@@ -10,19 +10,27 @@
         <v-col cols="7">
           <div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              I am a woman passionate about digital, programming (code); I
+              believe in the digital transformation of my country through to new
+              technologies. Therefore for me success lies in work, discipline,
+              research, continuing education and practice.
             </p>
             <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nu pariatur excepteur sint occaecat.
+              Creative, flexible, curious and autonomous I am able to adapt to a
+              position and a work team fairly quickly; I would like to join your
+              staff in order to participate in the development of your projects.
             </p>
           </div>
           <div>
             <v-btn depressed class="my-5 mr-3 btn" large> View Works </v-btn>
-            <v-btn depressed outlined class="my-5 btn-outlined" large>
+            <v-btn
+              depressed
+              outlined
+              class="my-5 btn-outlined"
+              large
+              href="bitotalaurene-cv-web-dev.pdf"
+              download
+            >
               Download CV
             </v-btn>
           </div>

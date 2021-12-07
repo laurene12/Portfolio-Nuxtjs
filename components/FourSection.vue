@@ -1,13 +1,12 @@
 <template>
-  <div class="main mt-8 py-5">
+  <div class="main my-8 py-5">
     <v-container>
       <v-row class="intro">
         <v-col cols="12">
-          <h2>Latest Works</h2>
+          <h2>Latest Works (Projects)</h2>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis iste natur
+            Some projects that I have done. You can also download my CV for more
+            details
           </p>
         </v-col>
       </v-row>

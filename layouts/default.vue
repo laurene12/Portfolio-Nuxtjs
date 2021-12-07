@@ -1,6 +1,5 @@
 <template>
   <v-app>
-    <v-app-bar :clipped-left="clipped" fixed app> </v-app-bar>
     <v-main class="">
       <Nuxt />
     </v-main>

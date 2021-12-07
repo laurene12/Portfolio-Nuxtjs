@@ -4,9 +4,11 @@
       <v-row>
         <v-col cols="12">
           <h1>Have Any Project In Mind?</h1>
-          <v-btn depressed outlined class="my-5 btn-hire" large>
-            Hire Me
-          </v-btn>
+          <a href="mailto:bitotalaurene@gmail.com">
+            <v-btn depressed outlined class="my-5 btn-hire" large>
+              Hire Me
+            </v-btn>
+          </a>
         </v-col>
       </v-row>
     </v-container>
@@ -14,13 +16,13 @@
 </template>
 <style>
 .hireMe {
-  color: #fff;
-  background-color: #fe0872;
+  background-color: #db2951;
   text-align: center;
 }
 .btn-hire {
-  color: #fe0872 !important;
-  border-color: #fe0872 !important;
-  background-color: #fff;
+  color: #db2951 !important;
+  border-color: #db2951 !important;
+  background-color: #000;
+  font-weight: bolder;
 }
 </style>

@@ -1,13 +1,12 @@
 <template>
-  <div class="parent py-9">
+  <div class="parent py-9 work">
     <v-container>
       <v-row class="intro">
         <v-col cols="12">
-          <h2>Work Experiences</h2>
+          <h2 class="mb-4">Work Experiences</h2>
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum. Sed ut perspiciatis
-            unde omnis iste natur
+            This is the retrospective of my professional experiences in a
+            company, you can also download my CV for more details
           </p>
         </v-col>
       </v-row>
@@ -35,7 +34,14 @@
             </v-timeline-item>
           </v-timeline>
           <div class="d-flex justify-end">
-            <v-btn depressed outlined class="my-5 btn" large>
+            <v-btn
+              depressed
+              outlined
+              class="my-5 btn"
+              large
+              href="bitotalaurene-cv-web-dev.pdf"
+              download
+            >
               Download CV
             </v-btn>
           </div>
@@ -45,44 +51,54 @@
   </div>
 </template>
 <script>
+import 'animate.css'
 export default {
   data() {
     return {
       items: [
         {
-          color: '#fe0872',
-          date: 'Janvier 2021 to Present',
+          color: '#db2951',
+          date: 'January 2021 to Present',
           entreprise: 'Kinshasa Digital',
-          poste: 'Développeuse Web',
+          poste: 'Web Developer',
           descriptif:
-            "Je suis développeuse front end de projets internes à l'entreprise ou ceux de nos clients",
-        },
-        {
-          color: '#e301fffc',
-          date: 'September 2020 to December 2020',
-          entreprise: 'Kinshasa Digital',
-          poste: 'Développeuse Web stagiaire',
-          descriptif:
-            "J'y ai travaillé en tant que développeuse stagiaire Frontend sur des projets pour l'entreprise clients",
+            'I am a FrontEnd developer of internal projects for the company or those of our clients',
         },
         {
           color: '#FFCF00',
+          date: 'September 2020 to December 2020',
+          entreprise: 'Kinshasa Digital',
+          poste: 'Web Developer Trainee',
+          descriptif:
+            'I worked there as a Frontend trainee developer on projects for the client company',
+        },
+        {
+          color: '#db2951',
           date: 'November 2018 to Septembre 2020',
           entreprise: 'Diamond Touristic',
           poste: 'Commerciale & Projet',
           descriptif:
-            "J'y ai travaillé en tant que chef de projet pour les planifications  et les réalisations des projets internes et externes de l'entreprise  ainsi que la mise en place des stratégies commerciaux pour les différents activités touristiques de l'entreprise.",
+            'I worked there as a project manager for the planning and implementation of internal and external projects of the company as well as the implementation of business strategies for the various tourism activities of the company.',
         },
         {
-          color: '#fe3a00fc',
+          color: '#FFCF00',
           date: 'October 2017 to December 2017',
           entreprise: 'Banque Centrale of Congo',
-          poste: 'Stagiaire Développeuse',
+          poste: 'Developer Trainee',
           descriptif:
-            "J'y ai travaillé en tant que développeuse stagiaire et assister aux différents dans la gestion des certains logiciels au sein de la direction Informatique ; Service des applications des systèmes comptables, financiers et de gestion.",
+            'I worked there as a trainee developer and assisted in the management of certain software within the IT department (Application service for accounting, financial and management systems).',
         },
       ],
     }
   },
 }
 </script>
+<style>
+.work {
+  background-image: linear-gradient(rgb(245 245 245 / 90%), rgb(245 245 245)),
+    url('~/assets/images/12.jpg') !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+</style>

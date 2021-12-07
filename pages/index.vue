@@ -6,7 +6,6 @@
     <four-section class="my-3" />
     <five-section />
     <six-section />
-    <seven-section />
     <eight-section />
   </div>
 </template>
